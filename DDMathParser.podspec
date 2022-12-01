@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.ios.source_files = "DDMathParser/**/*.{c,h,m}"
+  s.osx.source_files = "DDMathParser/**/*.{c,h,m}"
+  s.watchos.source_files = "DDMathParser/**/*.{c,h,m}"
 
   s.requires_arc = true
   s.module_name = 'DDMathParser'
